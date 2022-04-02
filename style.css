@@ -1,0 +1,11 @@
+@keyframes appear {
+	0% {color:transparent; position:absolute;}
+	100% {color:red; position:static;}
+}
+#contrastScriptBroke {
+	animation:appear 2000ms step-end;
+	color:red;
+	font-size:200%;
+	margin-bottom:0.8em;
+	text-align:center;
+}
