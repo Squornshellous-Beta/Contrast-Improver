@@ -50,7 +50,7 @@ module.exports={
 							
 							if (isWhite(textColor)) {
 								var shadow=[];
-								for (var z=-1;z<2;z++) for (var y=-1;y<2;y++) shadow[shadow.length]=z+"px "+y+"px 1px #0e4603";
+								for (var z=-1;z<2;z++) for (var y=-1;y<2;y++) shadow[shadow.length]=z+"px "+y+"px 2px #0e4603";
 								eles[i].style.textShadow=shadow.join(", ");
 							}
 							else {
@@ -71,9 +71,6 @@ module.exports={
 								}
 							}
 						}
-					}
-					
-					function iterateShadow(color) {
 					}
 					function isWhite(color) {
 						for (var i=0;i<color.length;i++) if (color[i]!=255) return false;
