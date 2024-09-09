@@ -58,7 +58,7 @@ module.exports={
 								var blackContrast=contrastRatio(bgColor,[0,0,0]);
 								
 								if (whiteContrast>blackContrast) {
-									var backgroundColor="#fff";
+									var backgroundColor="#EFEFEF";
 									contrast=2;
 								}
 								else var backgroundColor="#535353";
